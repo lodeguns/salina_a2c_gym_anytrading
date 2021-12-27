@@ -3,7 +3,7 @@ Slight modification of Facebook Salina Reinforcement Learning - [A2C GPU example
 
 The gym FOREX data are provided by gym_anytrading library [GitHub Page](https://github.com/AminHP/gym-anytrading)
 
-With respect to the traditional CartPole-V0 gym the _stock_func_ is designed to provide in input a
+With respect to the traditional CartPole-V0 gym, the _stock_func_ is designed to provide in input a
 FOREX trading gym:
 
 ```
