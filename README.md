@@ -1,5 +1,6 @@
 # Facebook Salina - Gym_AnyTrading
-Slight modification of Facebook Salina Reinforcement Learning - A2C GPU example for financial series.
+Slight modification of Facebook Salina Reinforcement Learning - [A2C GPU example](https://github.com/facebookresearch/salina/tree/main/salina_examples/rl/a2c) for financial series.
+
 The gym FOREX data are provided by gym_anytrading library [GitHub Page](https://github.com/AminHP/gym-anytrading)
 
 With respect to the traditional CartPole-V0 gym the _stock_func_ is designed to provide in input a
