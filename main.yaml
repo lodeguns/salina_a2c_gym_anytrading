@@ -10,7 +10,7 @@ algorithm:
   n_envs: 2
   n_processes: 1
   n_timesteps: 16
-  max_epochs: 100
+  max_epochs: 1000
   discount_factor: 0.95
   entropy_coef: 0.001
   critic_coef: 1.0
