@@ -7,17 +7,13 @@ FOREX trading gym:
 
 ```
 def stock_func(max_episode_steps,seed=123, window_size =10, size_sample=100):
-    #for now doesn't work...
     df =  FOREX_EURUSD_1H_ASK.copy()
     start_index = window_size
     if size_sample < 0:              ### put size_sample=-1 to consider the whole dataset.
         end_index = len(df)
     else:
         end_index = size_sample
-
     env = TimeLimit(gym.make('forex-v0', df=df, window_size=window_size, frame_bound=(start_index, end_index)), max_episode_steps=max_episode_steps)
-
-    #env = TimeLimit(gym.make("CartPole-v0"), max_episode_steps=max_episode_steps)
     env.seed(seed)
     return env
 ```
