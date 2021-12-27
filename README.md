@@ -2,7 +2,7 @@
 Slight modification of Facebook Salina Reinforcement Learning - A2C GPU example for financial series.
 The gym FOREX data are provided by gym_anytrading library [GitHub Page](https://github.com/AminHP/gym-anytrading)
 
-With respect to the traditional CartPole-V0 gym the following function is designed to provide in input a
+With respect to the traditional CartPole-V0 gym the _stock_func_ is designed to provide in input a
 FOREX trading gym:
 
 ```
@@ -18,8 +18,9 @@ def stock_func(max_episode_steps,seed=123, window_size =10, size_sample=100):
     return env
 ```
 
-A double tensor with diff close and relative gains are given in the following function,
-the function transforms the 'env/obs' tensors into suitable tensors for Policy/Critic agent neural networks.
+A double tensor with diff close and relative gains are given in the _gen_state_ function.
+The latter transforms the 'env/obs' tensors collected from AutoResetGymAgent 
+into suitable tensors for Policy/Critic agent neural networks.
 
 
 ```
