@@ -11,3 +11,7 @@ Francesco Bardozzo, Phd
 NeuroneLab - University of Salerno - Italy
 
 The software license remains the one indicated in the source code and respectively linked to the official Facebook SALINA repository [GitHub Page](https://github.com/facebookresearch/salina)
+
+
+Francesco Bardozzo, PhD
+fbardozzo@unisa.it
