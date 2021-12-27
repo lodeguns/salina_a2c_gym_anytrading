@@ -7,11 +7,11 @@ The gym FOREX data are provided by gym_anytrading library [GitHub Page](https://
 I take no responsibility for the use of the code.
 It is a simple test of SALINA's potential for financial problems.
 
-Francesco Bardozzo, Phd
-NeuroneLab - University of Salerno - Italy
+ 
+
 
 The software license remains the one indicated in the source code and respectively linked to the official Facebook SALINA repository [GitHub Page](https://github.com/facebookresearch/salina)
 
 
 Francesco Bardozzo, PhD
-fbardozzo@unisa.it
+fbardozzo@unisa.it - NeuroneLab - University of Salerno - Italy
