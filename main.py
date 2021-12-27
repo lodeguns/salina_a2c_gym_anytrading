@@ -42,7 +42,6 @@ def _index(tensor_3d, tensor_2d):
     return v
 
 def _gen_state(observation):
-    # observation = observation[np.newaxis, ...] no
     index = torch.tensor([0])
     diff_close = torch.transpose(torch.index_select(observation[0], 1, index), 1, 0)
     index2 = torch.tensor([1])
@@ -102,8 +101,7 @@ class CriticAgent(TAgent):
         critic = self.critic_model(_gen_state(observation)).squeeze(-1)
         self.set(("critic", t), critic)
 
-def stock_func(max_episode_steps,seed=123, window_size =10, size_sample=100):
-    #for now doesn't work...
+def stock_func(max_episode_steps,seed=123, window_size =10, size_sample=-1):
     df =  FOREX_EURUSD_1H_ASK.copy()
     start_index = window_size
     if size_sample < 0:
