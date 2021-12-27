@@ -7,7 +7,7 @@ With respect to the traditional CartPole-V0 gym, the _stock_func_ is designed to
 FOREX trading gym:
 
 ```
-def stock_func(max_episode_steps,seed=123, window_size =10, size_sample=100):
+def stock_func(max_episode_steps,seed=123, window_size=10, size_sample=100):
     df =  FOREX_EURUSD_1H_ASK.copy()
     start_index = window_size
     if size_sample < 0:              ### put size_sample=-1 to consider the whole dataset.
