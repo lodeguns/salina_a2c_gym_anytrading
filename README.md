@@ -51,9 +51,6 @@ The software license remains the one indicated in the source code and respective
 Francesco Bardozzo, PhD
 fbardozzo@unisa.it - NeuroneLab - University of Salerno - Italy
 
-Pravesh Kriplani, PhD
-pkriplani@unisa.it - NeuroneLab - University of Salerno - Italy 
-
 Roberto Tagliaferri, Full Prof.
 robtag@unisa.it - NueroneLab - University of Salerno - Italy
 
